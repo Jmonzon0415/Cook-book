@@ -21,7 +21,7 @@ test:
   database: db/test.sqlite3
 
 production:
-  database: cookbook-production 
-  adapter: postgresql
+    adapter: postgresql
+    database: cookbook-production 
     encoding: unicode
     pool: 5
